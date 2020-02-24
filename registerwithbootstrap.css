@@ -1,0 +1,123 @@
+.body1 {
+    background-color: #273A5E;
+}
+
+.container-fluid {
+    text-align: center;
+}
+
+nav {
+    background-color: #273A5E;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #273A5E;
+}
+
+
+/*header start*/
+.header {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 300px;
+
+    background: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    position: relative;
+    overflow: auto;
+}
+
+.headerlogo {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.headerlogo img {
+    width: 150px;
+    height: 150px;
+}
+
+/*content*/
+input {
+    font-size: 14px;
+    color: #151314;
+    border-radius: 5px;
+    border-width: 1px;
+    margin: 2px;
+}
+
+.position {
+    width: 55%;
+    float: left;
+    text-align: right;
+    margin-right: 5px;
+}
+
+select {
+    width: 50%;
+    height: 7vh;
+    font-size: 14px;
+    color: #151314;
+    background-color: #ffffff;
+}
+
+input[type="text"] {
+    width: 50%;
+    height: 7vh;
+    text-align: left;
+    color: #151314;
+}
+
+input[type="email"] {
+    width: 50%;
+    height: 7vh;
+    text-align: left;
+    color: #151314;
+}
+
+input[type="tel"] {
+    width: 50%;
+    height: 7vh;
+    text-align: left;
+    color: #151314;
+}
+
+input[type="password"] {
+    width: 50%;
+    height: 7vh;
+    text-align: left;
+    color: #151314;
+}
+
+.btn-primary{
+    margin-bottom: 10px;
+    width: 20%;
+    height: 7vh;
+    text-align: center;
+    color: #ffffff;
+    background-color: #273a5e;
+    border-color: #273a5e;
+}
+.row{
+    background-color: #c1bfbd;
+}
+
+
+/*footer start*/
+.footer {
+    text-align: center;
+    color: #ffffff;
+    background-color: #273A5E;
+}
+
+.footer a {
+    color: #ffffff;
+}
