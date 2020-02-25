@@ -78,6 +78,19 @@ input[type="number"] {
     font-size: 16px;
     margin-bottom: 5px;
 }
+.btn-info{
+    background-color: #273A5E;
+    border-color: #273A5E;
+}
+
+.btn-info a{
+   color: #ffffff; 
+    text-decoration: none;
+}
+
+.btn-info a:hover{
+    
+}
 
 
 /*footer start*/
