@@ -12,10 +12,18 @@
     <title>Book Bazar with bootstrap</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
+<style type="text/css">.form-style-1 input[type=text]:focus, 
+.form-style-1 input[type=email]:focus,
+.form-style-1 textarea:focus, 
+.form-style-1 select:focus{
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}</style>
 <body>
 <!--navigation-->
-<div class="body1">
+
 <div class="container">
     <nav class="navbar navbar-expand-md navbar-dark justify-content-start">
         <a class="navbar-brand" href="#"></a>
@@ -39,7 +47,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="Contact.html">Contact</a>
+                    <a class="nav-link text-white" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
@@ -47,90 +55,61 @@
    <div class="cart"><a href="cashwithbootstrap.html"><img src="img/cart.jpeg"></a></div>
     </div>
     </div>
-    
-    <div class="container-fluid">
-       <div class="row">
-      <div class="col-sm-12"></div>
-    </div>
-        <!-- header -->
+
+    <section>
+    	<!-- header -->
         <div class="row">
             <div class="col-sm-12 header">
                 <div class="headerbacground"></div>
                 <div class="headerlogo"><a href="#"><img src="img/logoB.png"></a></div>
             </div>
         </div>
-        <!-- content -->
-       <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3 contentbooklist">
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">DICK</button></p>
-                    <a href="product-information-page.html"><img src="img/dick.jfif"> </a>
-                    <div class="anime">MONICA RIHEN</div>
-                    
+    <div class="container-fluid ">
+       <div class="row justify-content-center">
+        <div class="col-12 col-md-5 col-lg-5">
+            <!-- Form -->
+
+            <form>
+               <h1>CONTACT US</h1>
+                <!-- Input fields -->
+                <div class="form-group">
+                    <label for="name">FULL NAME<span class="required">*</span></label>
+                    <input type="text" class="form-control username" id="username" placeholder="name..." name="name">
                 </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">NOVEL</button></p>
-                    <a href="#" target="_blank"><img src="img/skönliteratur.jfif" ></a><br>
-                    <div class="anime">LUCINDA RILEY</div>
+                <div class="form-group">
+                    <label for="lastname"></label>
+                    <input type="text" class="form-control username" id="username" placeholder="lastname..." name="lastname">
                 </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">CHILDREN</button></p>
-                    <a href="#" target="_blank"><img src="img/barn.jfif" class="img-thumbnail"></a>
-                    <div class="anime">KARIN ERLANDSSON</div>
+                <div class="form-group">
+                    <label for="email">EMAIL<span class="required">*</span></label>
+                    <input type="text" class="form-control email" id="email" placeholder="email..." name="email">
                 </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 contentbooklist">
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">Data & IT</button></p>
-                    <a href="#" target="_blank"><img src="img/it.jfif" class="img-thumbnail"></a><br>
-                    <div class="anime">EVA ANSELL</div>
+                <div class="form-group">
+                    <label for="address">ADRESS</label>
+                    <input type="address" class="form-control address" id="address" placeholder="address..." name="address">
                 </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">ANIMALS</button></p>
-                    <a href="#" target="_blank"><img src="img/animals.jfif" class="img-thumbnail"></a><br>
-                    <div class="anime">FHIL GREGORY</div>
+<div class="form-group ">
+                    <label for="message">YOUR MESSAGE</label>
+                    <input type="message" class="form-control message "style="height: 150px;" id="message" name="message">
                 </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-block">FINANCE & LEADERSHIP</button></p>
-                    <a href="#" target="_blank"><img src="img/FINANCE.jfif" class="img-thumbnail"></a><br>
-                    <div class="anime">JACOB ÖSTERBERG</div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 contentbooklist">
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">PHILOSOPHY</button></p>
-                    <a href="#" target="_blank"><img src="img/PHILOSOPHI.jfif" class="img-thumbnail"></a><br>
-                    <div class="anime">PER SNAPRUD</div>
-                </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">HISTORY</button></p>
-                    <a href="#" target="_blank"><img src="img/HISTORY.jfif" class="img-thumbnail"></a><br>
-                    <div class="anime">JASON D MARK</div>
-                </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">CULTURE</button></p>
-                    <a href="#" target="_blank"><img src="img/CULTURE.jfif" class="img-thumbnail"></a><br>
-                    <div class="anime"> LENA & LARS WILDERÄNG</div>
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3 contentbooklist">
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">SCIENCE</button></p>
-                    <a href="#" target="_blank"><img src="img/SCIENCE.jfif">
-                    <div class="anime">MARIA KUCHEN</div>
-                </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">PSYCHOLOGY</button></p>
-                    <a href="#" target="_blank"><img src="img/PSYCHO.jfif" class="img-thumbnail"></a>
-                    <div class="anime"> JOHAN BERGSTAD</div>
-                </div>
-                <div class="contentbooklistb">
-                    <p><button type="button" class="btn btn-info btn-block">LAW</button></p>
-                    <a href="#" target="_blank"><img src="img/LAW.png" class="img-thumbnail"></a>
-                    <div class="anime">NORSTEDTS JURIDIK</div>
-                </div>
-            </div>
+               <div>
+                            <button type="button" class="btn btn-primary btn-lg">submit</button>
+                        </div>
+      
+  
+              
+               
+            </form>
+            <!-- Form end -->
         </div>
+    </div>
+</div>
+
+      </div>
+      
+    </div>
+</div>
+        </section>
         <footer>
             <div class="container-fluid padding ">
                 <div class="row text-center">
