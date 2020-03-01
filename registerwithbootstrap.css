@@ -16,8 +16,11 @@ nav {
     align-items: center;
     background-color: #273A5E;
 }
-
-
+.cart img {
+height: 40px;
+border-radius: 20px;
+margin-right: 50px;}
+.nav-link{font-size: 20px !important}
 /*header start*/
 .header {
     display: flex;

@@ -9,6 +9,7 @@
 nav {
     background-color: #273A5E;
     width: 100%;
+    
 }
 
 .container {
@@ -16,7 +17,7 @@ nav {
     align-items: center;
     background-color: #273A5E;
 }
-
+.nav-link{font-size: 20px !important}
 
 /*header start*/
 .header {
